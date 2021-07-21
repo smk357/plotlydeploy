@@ -89,7 +89,7 @@ function buildCharts(sample) {
       
     // 9. Create the layout for the bar chart. 
     var barLayout = {
-      title: "Top OTU's"
+      title: "Top 10 Bacterial Cultures"
      };
     // 10. Use Plotly to plot the data with the layout. 
     Plotly.newPlot("bar", barData, barLayout)
